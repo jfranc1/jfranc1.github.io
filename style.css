@@ -91,11 +91,11 @@ a:visited {
 }
 
 a:visited:hover { 
-    border: 1px dotted var(--color-link-visited);
+    border: 2px dotted var(--color-link-visited);
     text-decoration: underline;
 }
     
 a:hover { 
-    border: 1px dotted var(--color-link);
+    border: 2px dotted var(--color-link);
     text-decoration: underline;
 }
