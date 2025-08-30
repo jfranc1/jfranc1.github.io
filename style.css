@@ -1,10 +1,8 @@
 :root {
     --color-bg: #008689ff;
     --color-fg: #000000ff;
-    --color-link: #ffffffff;
-    --color-link-visited: #ffffffff;
-    --color-link-hover: #ffffffff;
-
+    --color-link: #010081;
+    --color-link-visited: #795CB2;
     --color-cat-bg: #C0C0C0ff;
 }
 
@@ -82,15 +80,19 @@ li {
   padding: 5px
 }
 
-a:link {
-  text-decoration: none;
-  color: var(--color-link);
+a:link { 
+    text-decoration: none;
+    color: var(--color-link);    
 }
 
-a:visited {
-  color: var(--color-link-visited);
+a:visited { 
+    color: var(--color-link-visited);
 }
 
-a:hover {
-  color: var(--color-link-hover);
+a:visited:hover { 
+    border: 1px dotted var(--color-link-visited);
+}
+    
+a:hover { 
+    border: 1px dotted var(--color-link);
 }
