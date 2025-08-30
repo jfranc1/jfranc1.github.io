@@ -4,6 +4,8 @@
     --color-link: #ffffffff;
     --color-link-visited: #ffffffff;
     --color-link-hover: #ffffffff;
+
+    --color-cat-bg: #C0C0C0ff;
 }
 
 html, body {
@@ -47,6 +49,7 @@ html, body {
   display: flex;
   flex-direction: column;
   width: 150px;
+  background-color: var(--color-cat-bg);
 }
 
 .bookmarks {
